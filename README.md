@@ -17,6 +17,10 @@ Audi MMI 3G / QNX / SH4 的实验记录与复现入口。当前为研究资料�
 
 详见 [模拟器阶段报告](docs/simulator-status.md) 和 [复现路线](docs/reproduction.md)。
 
+## 原生 CarPlay 专项
+
+[CarPlay 研究源码与进度](carplay/README.md)：协议核心、构建审计工具及 SD 诊断阶段记录。尚未完成可用接收器，不是可安装的 CarPlay 产品。
+
 ## 发布范围
 
 不包含原厂固件、固件解包出的专有二进制、内存转储、凭据、个人信息和用户车辆标识。
