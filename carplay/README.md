@@ -8,7 +8,14 @@
 - 仍可完整读取并已筛查的构建/ELF 审计/诊断打包工具与阶段报告。
 - 协议实现的来源说明和 GPL-3.0-only 许可证，见 `src/protocol/PROVENANCE.md`、`IAP2_LINK_PORT.md` 和 `licenses/DiPlay-LICENSE`。
 
-部分历史文件仍是 iCloud 未下载占位文件，尚未纳入此次发布。因此本目录不是原项目完整镜像；部分工具引用的探针源文件、SD 模板、vendor 编码器或测试可能缺失，不能保证直接调用所有工具均可运行。
+首版发布时部分历史文件仍是未下载占位文件。2026-10-26 随后已将本机 CarPlay 项目136个文件恢复为可读，并生成、校验完整私有备份；这只是资料恢复，不是新功能验证，也不代表系统级 iCloud 问题已解决。
+公开仓库仍只纳入已单独审核的内容，不是原项目完整镜像。部分工具引用的 SD 模板、vendor 编码器、探针或测试可能缺失，不能保证直接调用所有工具均可运行。私有备份和原厂二进制不上传。
+
+补充的协议与验证边界说明：
+
+- [Lockdown framing 及尚缺的配对/TLS阶段](docs/LOCKDOWN_PORT.md)
+- [USBMUX 单连接核心的调用契约与限制](docs/USBMUX_SESSION_CORE.md)
+- [CarPlay 条件与只读诊断覆盖矩阵](docs/CARPLAY_REQUIREMENTS_MATRIX.md)
 
 ## 已验证与未验证
 
