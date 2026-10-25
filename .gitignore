@@ -1,0 +1,16 @@
+*.bin
+*.raw
+*.ifs
+*.efs
+*.dmp
+*.rar
+*.zip
+*.tar.gz
+*.log
+*.pem
+*.key
+.env*
+.DS_Store
+__pycache__/
+build/
+private/
