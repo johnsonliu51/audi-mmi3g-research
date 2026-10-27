@@ -17,6 +17,8 @@
 - [USBMUX 单连接核心的调用契约与限制](docs/USBMUX_SESSION_CORE.md)
 - [CarPlay 条件与只读诊断覆盖矩阵](docs/CARPLAY_REQUIREMENTS_MATRIX.md)
 
+2026-10-28 补充：[历史 SD 诊断日志复核](docs/SD_LOG_REASSESSMENT_20261028.md)。保存的日志证明旧入口曾执行到写卡确认及 runner 调用标记，但存在非零退出码；没有菜单不等于脚本完全未执行。这不是新固件或 CarPlay 的实机成功。
+
 ## 已验证与未验证
 
 历史记录表明协议核心曾完成宿主构建和 GNU QNX SH 构建；本次另对这里公开的八个模块进行 macOS 宿主严格编译检查，结果见 PUBLISH_VERIFICATION.md。
